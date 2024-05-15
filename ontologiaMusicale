@@ -1,0 +1,1339 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2023/4/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lenovo/ontologies/2023/4/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/lenovo/ontologies/2023/4/untitled-ontology-9/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-9" IRI="http://www.semanticweb.org/lenovo/ontologies/2023/4/untitled-ontology-9#"/>
+    <Declaration>
+        <Class IRI="#album"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bassista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bassistaRedHotChiliPeppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#basso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#batteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#batterista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#batteristaRedHotChiliPeppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cantante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cantanteRedHotChiliPeppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniGenereAltro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniGenereAltroRHCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniGenereFunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniGenereFunkRHCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniGenereFunkRock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniGenereFunkRockRHCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniGenereRock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniGenereRockRHCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canzoniRHCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casaDiscografica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chitarra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chitarrista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chitarristaRedHotChiliPeppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#membriRedHotChiliPeppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#membriRockBand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#musicista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strumento"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#compostaDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contenutaIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contieneCanzone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haComposto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haProdotto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prodottoDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#soloSuonatoDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suonaBasso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suonaBatteria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suonaChitarra"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suonaStrumento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#annoPubblicazione"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#marca"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#modello"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeSocietà"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titolo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="foaf:givenname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#byTheWay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cantStop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chadSmith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#darkNecessities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fenderJazzBass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fenderStratocaster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gibsonLesPaul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pearlMasterSeries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#snow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stadiumArcadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#theGateway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#theLongestWave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#veniceQueen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#warnerRecords"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wetSand"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#bassistaRedHotChiliPeppers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#bassista"/>
+            <Class IRI="#membriRedHotChiliPeppers"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#batteristaRedHotChiliPeppers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#batterista"/>
+            <Class IRI="#membriRedHotChiliPeppers"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#cantanteRedHotChiliPeppers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#cantante"/>
+            <Class IRI="#membriRedHotChiliPeppers"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#canzoniGenereAltroRHCP"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#canzoniGenereAltro"/>
+            <Class IRI="#canzoniRHCP"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#canzoniGenereFunkRHCP"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#canzoniGenereFunk"/>
+            <Class IRI="#canzoniRHCP"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#canzoniGenereFunkRockRHCP"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#canzoniGenereFunkRock"/>
+            <Class IRI="#canzoniRHCP"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#canzoniGenereRockRHCP"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#canzoniGenereRock"/>
+            <Class IRI="#canzoniRHCP"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#chitarristaRedHotChiliPeppers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#chitarrista"/>
+            <Class IRI="#membriRedHotChiliPeppers"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#album"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#contieneCanzone"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bassista"/>
+        <Class IRI="#musicista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bassista"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#suonaBasso"/>
+            <Class IRI="#basso"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#basso"/>
+        <Class IRI="#strumento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#batteria"/>
+        <Class IRI="#strumento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#batterista"/>
+        <Class IRI="#musicista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#batterista"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#suonaBatteria"/>
+            <Class IRI="#batteria"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cantante"/>
+        <Class IRI="#musicista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#canzoniGenereAltro"/>
+        <Class IRI="#canzoni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#canzoniGenereFunk"/>
+        <Class IRI="#canzoni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#canzoniGenereFunkRock"/>
+        <Class IRI="#canzoni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#canzoniGenereRock"/>
+        <Class IRI="#canzoni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#canzoniRHCP"/>
+        <Class IRI="#canzoni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chitarra"/>
+        <Class IRI="#strumento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chitarrista"/>
+        <Class IRI="#musicista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chitarrista"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#suonaChitarra"/>
+            <Class IRI="#chitarra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#membriRedHotChiliPeppers"/>
+        <Class IRI="#membriRockBand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#membriRockBand"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#musicista"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#musicista"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#suonaStrumento"/>
+            <Class IRI="#strumento"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#album"/>
+        <Class IRI="#canzoni"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#bassista"/>
+        <Class IRI="#batterista"/>
+        <Class IRI="#cantante"/>
+        <Class IRI="#chitarrista"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="#canzoni"/>
+        <Class IRI="#canzoniGenereAltro"/>
+        <Class IRI="#canzoniGenereFunk"/>
+        <Class IRI="#canzoniGenereFunkRock"/>
+        <Class IRI="#canzoniGenereRock"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#canzoniRHCP"/>
+        <Class IRI="#canzoniGenereAltroRHCP"/>
+        <Class IRI="#canzoniGenereFunkRHCP"/>
+        <Class IRI="#canzoniGenereFunkRockRHCP"/>
+        <Class IRI="#canzoniGenereRockRHCP"/>
+    </DisjointUnion>
+    <ClassAssertion>
+        <Class IRI="#cantanteRedHotChiliPeppers"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#album"/>
+        <NamedIndividual IRI="#byTheWay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#canzoniGenereFunkRockRHCP"/>
+        <NamedIndividual IRI="#cantStop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#batteristaRedHotChiliPeppers"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#canzoniGenereFunkRockRHCP"/>
+        <NamedIndividual IRI="#darkNecessities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#basso"/>
+        <NamedIndividual IRI="#fenderJazzBass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#chitarra"/>
+        <NamedIndividual IRI="#fenderStratocaster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bassistaRedHotChiliPeppers"/>
+        <NamedIndividual IRI="#flea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#chitarra"/>
+        <NamedIndividual IRI="#gibsonLesPaul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#chitarristaRedHotChiliPeppers"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#chitarristaRedHotChiliPeppers"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#batteria"/>
+        <NamedIndividual IRI="#pearlMasterSeries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#canzoniGenereRockRHCP"/>
+        <NamedIndividual IRI="#snow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#album"/>
+        <NamedIndividual IRI="#stadiumArcadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#album"/>
+        <NamedIndividual IRI="#theGateway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#canzoniGenereRockRHCP"/>
+        <NamedIndividual IRI="#theLongestWave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#canzoniGenereRockRHCP"/>
+        <NamedIndividual IRI="#veniceQueen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#casaDiscografica"/>
+        <NamedIndividual IRI="#warnerRecords"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#canzoniGenereRockRHCP"/>
+        <NamedIndividual IRI="#wetSand"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComposto"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <NamedIndividual IRI="#cantStop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComposto"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <NamedIndividual IRI="#snow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComposto"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <NamedIndividual IRI="#veniceQueen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComposto"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <NamedIndividual IRI="#wetSand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contieneCanzone"/>
+        <NamedIndividual IRI="#byTheWay"/>
+        <NamedIndividual IRI="#cantStop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contieneCanzone"/>
+        <NamedIndividual IRI="#byTheWay"/>
+        <NamedIndividual IRI="#veniceQueen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#cantStop"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#cantStop"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#cantStop"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#chadSmith"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#chadSmith"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#suonaStrumento"/>
+        <NamedIndividual IRI="#chadSmith"/>
+        <NamedIndividual IRI="#pearlMasterSeries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#darkNecessities"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#darkNecessities"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#darkNecessities"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#darkNecessities"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#flea"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#suonaStrumento"/>
+        <NamedIndividual IRI="#flea"/>
+        <NamedIndividual IRI="#fenderJazzBass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#suonaStrumento"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+        <NamedIndividual IRI="#fenderStratocaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#suonaStrumento"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+        <NamedIndividual IRI="#gibsonLesPaul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#snow"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#snow"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#snow"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contieneCanzone"/>
+        <NamedIndividual IRI="#stadiumArcadium"/>
+        <NamedIndividual IRI="#snow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contieneCanzone"/>
+        <NamedIndividual IRI="#stadiumArcadium"/>
+        <NamedIndividual IRI="#wetSand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contieneCanzone"/>
+        <NamedIndividual IRI="#theGateway"/>
+        <NamedIndividual IRI="#darkNecessities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contieneCanzone"/>
+        <NamedIndividual IRI="#theGateway"/>
+        <NamedIndividual IRI="#theLongestWave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#theLongestWave"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#theLongestWave"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#theLongestWave"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#theLongestWave"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#veniceQueen"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#veniceQueen"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#veniceQueen"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haProdotto"/>
+        <NamedIndividual IRI="#warnerRecords"/>
+        <NamedIndividual IRI="#byTheWay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haProdotto"/>
+        <NamedIndividual IRI="#warnerRecords"/>
+        <NamedIndividual IRI="#stadiumArcadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haProdotto"/>
+        <NamedIndividual IRI="#warnerRecords"/>
+        <NamedIndividual IRI="#theGateway"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#wetSand"/>
+        <NamedIndividual IRI="#chadSmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#wetSand"/>
+        <NamedIndividual IRI="#flea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostaDa"/>
+        <NamedIndividual IRI="#wetSand"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Anthony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+        <NamedIndividual IRI="#anthonyKiedis"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kiedis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annoPubblicazione"/>
+        <NamedIndividual IRI="#byTheWay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#byTheWay"/>
+        <Literal>By The Way</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#cantStop"/>
+        <Literal>Can&apos;t Stop</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <NamedIndividual IRI="#chadSmith"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Chad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+        <NamedIndividual IRI="#chadSmith"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Smith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#darkNecessities"/>
+        <Literal>Dark Necessities</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#fenderJazzBass"/>
+        <Literal>Fender</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modello"/>
+        <NamedIndividual IRI="#fenderJazzBass"/>
+        <Literal>Jazz Bass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#fenderStratocaster"/>
+        <Literal>Fender</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modello"/>
+        <NamedIndividual IRI="#fenderStratocaster"/>
+        <Literal>Stratocaster</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <NamedIndividual IRI="#flea"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Michael</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:givenname"/>
+        <NamedIndividual IRI="#flea"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Flea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+        <NamedIndividual IRI="#flea"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Balzary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#gibsonLesPaul"/>
+        <Literal>Gibson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modello"/>
+        <NamedIndividual IRI="#gibsonLesPaul"/>
+        <Literal>Les Paul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">John</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+        <NamedIndividual IRI="#johnFrusciante"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Frusciante</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Josh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+        <NamedIndividual IRI="#joshKlinghoffer"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Klinghoffer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#pearlMasterSeries"/>
+        <Literal>Pearl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modello"/>
+        <NamedIndividual IRI="#pearlMasterSeries"/>
+        <Literal>Master Series</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#snow"/>
+        <Literal>Snow (Hey Oh)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annoPubblicazione"/>
+        <NamedIndividual IRI="#stadiumArcadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#stadiumArcadium"/>
+        <Literal>Stadium Arcadium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annoPubblicazione"/>
+        <NamedIndividual IRI="#theGateway"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#theGateway"/>
+        <Literal>The Gateway</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#theLongestWave"/>
+        <Literal>The Longest Wave</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#veniceQueen"/>
+        <Literal>Venice Queen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nomeSocietà"/>
+        <NamedIndividual IRI="#warnerRecords"/>
+        <Literal>Warner Records</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titolo"/>
+        <NamedIndividual IRI="#wetSand"/>
+        <Literal>Wet Sand</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#suonaBasso"/>
+        <ObjectProperty IRI="#suonaStrumento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#suonaBatteria"/>
+        <ObjectProperty IRI="#suonaStrumento"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#suonaChitarra"/>
+        <ObjectProperty IRI="#suonaStrumento"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#compostaDa"/>
+        <ObjectProperty IRI="#haComposto"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contenutaIn"/>
+        <ObjectProperty IRI="#contieneCanzone"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#haProdotto"/>
+        <ObjectProperty IRI="#prodottoDa"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#contenutaIn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#prodottoDa"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#contieneCanzone"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#haProdotto"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#contieneCanzone"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#haComposto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#haProdotto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#suonaStrumento"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#compostaDa"/>
+        <Class IRI="#canzoni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contenutaIn"/>
+        <Class IRI="#canzoni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contieneCanzone"/>
+        <Class IRI="#album"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haComposto"/>
+        <Class IRI="#musicista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haProdotto"/>
+        <Class IRI="#casaDiscografica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <ObjectUnionOf>
+            <Class IRI="#membriRockBand"/>
+            <Class IRI="#musicista"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prodottoDa"/>
+        <Class IRI="#album"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#soloSuonatoDa"/>
+        <Class IRI="#canzoni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suonaBasso"/>
+        <Class IRI="#bassista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suonaBatteria"/>
+        <Class IRI="#batterista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suonaChitarra"/>
+        <Class IRI="#chitarrista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suonaStrumento"/>
+        <Class IRI="#musicista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#compostaDa"/>
+        <Class IRI="#musicista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contenutaIn"/>
+        <Class IRI="#album"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contieneCanzone"/>
+        <Class IRI="#canzoni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haComposto"/>
+        <Class IRI="#canzoni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haProdotto"/>
+        <Class IRI="#album"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haSuonatoCon"/>
+        <ObjectUnionOf>
+            <Class IRI="#membriRockBand"/>
+            <Class IRI="#musicista"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prodottoDa"/>
+        <Class IRI="#casaDiscografica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#soloSuonatoDa"/>
+        <Class IRI="#chitarrista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suonaBasso"/>
+        <Class IRI="#basso"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suonaBatteria"/>
+        <Class IRI="#batteria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suonaChitarra"/>
+        <Class IRI="#chitarra"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suonaStrumento"/>
+        <Class IRI="#strumento"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#annoPubblicazione"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#marca"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#modello"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#nomeSocietà"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#titolo"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="foaf:givenname"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#annoPubblicazione"/>
+        <ObjectUnionOf>
+            <Class IRI="#album"/>
+            <Class IRI="#canzoni"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#marca"/>
+        <Class IRI="#strumento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#modello"/>
+        <Class IRI="#strumento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeSocietà"/>
+        <Class IRI="#casaDiscografica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titolo"/>
+        <ObjectUnionOf>
+            <Class IRI="#album"/>
+            <Class IRI="#canzoni"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="foaf:givenname"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#annoPubblicazione"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#marca"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#modello"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeSocietà"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titolo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="foaf:givenname"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="foaf:surname"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#album</IRI>
+        <Literal xml:lang="it">Classe degli album (dischi) incisi dai musicisti. 
+
+Ogni album contiene minimo due canzoni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#annoPubblicazione</IRI>
+        <Literal xml:lang="it">Anno di pubblicazione di un album o di una canzone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#bassista</IRI>
+        <Literal xml:lang="it">Classe dei bassisti. I bassisti sono dei musicisti.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#bassistaRedHotChiliPeppers</IRI>
+        <Literal xml:lang="it">Classe dei bassisti che suonano per i Red Hot Chili Peppers.
+
+Classe ottenuta come intersenzione delle classi bassista e membriRedHotChiliPeppers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#basso</IRI>
+        <Literal xml:lang="it">Classe dei bassi. I sono uno strumento musicale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#basso</IRI>
+        <Literal xml:lang="it">Classe dello strumento musicale basso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#batteria</IRI>
+        <Literal xml:lang="it">Classe delle batterie. Le batterie sono uno strumento musicale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#batterista</IRI>
+        <Literal xml:lang="it">Classe dei batteristi. I batteristi sono dei musicisti.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#batteristaRedHotChiliPeppers</IRI>
+        <Literal xml:lang="it">Classe dei batteristi che suonano per i Red Hot Chili Peppers.
+
+Classe ottenuta come intersenzione delle classi batterista e membriRedHotChiliPeppers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cantante</IRI>
+        <Literal xml:lang="it">Classe dei cantanti. I cantanti sono dei musicisti.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cantanteRedHotChiliPeppers</IRI>
+        <Literal xml:lang="it">Classe dei cantanti che cantano per i Red Hot Chili Peppers.
+
+Classe ottenuta come intersenzione delle classi cantante e membriRedHotChiliPeppers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoni</IRI>
+        <Literal xml:lang="it">Questa è la classe delle canzoni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniGenereAltro</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta le canzoni di ogni altro genere oltre al rock, funk e funk rock, che sono rappresentate con classi apposite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniGenereAltroRHCP</IRI>
+        <Literal xml:lang="it">Questa classe rappresenta le canzoni, composte dai Red Hot Chili Peppers, di ogni altro genere oltre al rock, funk e funk rock, che sono rappresentate con classi apposite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniGenereFunk</IRI>
+        <Literal xml:lang="it">Questa è la classe delle canzoni di genere funk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniGenereFunkRHCP</IRI>
+        <Literal xml:lang="it">Questa è la classe delle canzoni di genere funk composte dai Red Hot Chili Peppers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniGenereFunkRock</IRI>
+        <Literal xml:lang="it">Questa è la classe delle canzoni di genere funk rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniGenereFunkRockRHCP</IRI>
+        <Literal xml:lang="it">Questa è la classe delle canzoni di genere funk rock composte dai Red Hot Chili Peppers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniGenereRock</IRI>
+        <Literal xml:lang="it">Questa è la classe delle canzoni di genere rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniGenereRockRHCP</IRI>
+        <Literal xml:lang="it">Questa è la classe delle canzoni di genere rock composte dai Red Hot Chili Peppers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#canzoniRHCP</IRI>
+        <Literal xml:lang="it">Questa è la classe delle canzoni composte dai Red Hot Chili Peppers.
+E&apos; l&apos;unione delle classi canzoniGenereAltroRHCP, canzoniGenereRockRHCP, canzoniGenereFunkRHCP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#chitarra</IRI>
+        <Literal xml:lang="it">Classe delle chitarre. Le chitarre sono uno strumento musicale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#chitarrista</IRI>
+        <Literal xml:lang="it">Classe dei chitarristi. I chitarristi sono dei musicisti.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#chitarristaRedHotChiliPeppers</IRI>
+        <Literal xml:lang="it">Classe dei chitarristi che suonano per i Red Hot Chili Peppers.
+
+Classe ottenuta come intersenzione delle classi chitarrista e membriRedHotChiliPeppers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#compostaDa</IRI>
+        <Literal xml:lang="it">Proprietà che lega una canzone ad un suo compositore (musicista).
+Una canzone può essere composta da più musicisti.
+
+E&apos; l&apos;inverso della proprietà haComposto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#contenutaIn</IRI>
+        <Literal xml:lang="it">Proprietà che lega una canzone con l&apos;album in cui è contenuta.
+
+Dato che una canzone è contenuta in un solo album allora questa proprietà è funzionale.
+
+E&apos; la proprietà inversa di contieneCanzone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#contieneCanzone</IRI>
+        <Literal xml:lang="it">Proprietà che lega un album alle canzoni che contiene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haComposto</IRI>
+        <Literal xml:lang="it">Proprietà che lega un musicista ad una canzone da esso composta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haProdotto</IRI>
+        <Literal xml:lang="it">Proprietà inversa di &quot;prodottoDa&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haSuonatoCon</IRI>
+        <Literal xml:lang="it">Proprietà che lega i musicisti che hanno suonato insieme. 
+
+E&apos; una proprietà simmetrica in quanto: se A ha suonato con B allora B ha suonato con A.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#marca</IRI>
+        <Literal xml:lang="it">Casa produttrice di uno strumento musicale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#membriRedHotChiliPeppers</IRI>
+        <Literal xml:lang="it">Classe rappresentante i membri dei Red Hot Chili Peppers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#membriRockBand</IRI>
+        <Literal xml:lang="it">Le istanze di questa classe sono musicisti che sono membri di una rock band.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#modello</IRI>
+        <Literal xml:lang="it">Modello di uno strumento musicale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#musicista</IRI>
+        <Literal xml:lang="it">Classe dei musicisti.
+
+Un musicista suona solo strumenti musicali.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#nomeSocietà</IRI>
+        <Literal xml:lang="it">Il nome della casa discografica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prodottoDa</IRI>
+        <Literal xml:lang="it">Proprietà che lega un album alla casa discografica che lo ha prodotto.
+
+La proprietà è funzionale in quanto un album può essere prodotto da una singola casa discografica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#soloSuonatoDa</IRI>
+        <Literal>Questa proprietà è stata creata per testate una query con il formato CONSTRUCT.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#strumento</IRI>
+        <Literal xml:lang="it">Classe degli strumenti musicali.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#suonaStrumento</IRI>
+        <Literal xml:lang="it">Proprietà che lega il musicista ad uno strumento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#titolo</IRI>
+        <Literal xml:lang="it">Titolo di un album o di una canzone.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
